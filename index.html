@@ -3,69 +3,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kirstein Genzen Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Kirstein Genzen Nojapa | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <div class="container">
-    <aside class="sidebar">
-      <img src="profile.jpg" alt="Kirstein Genzen" class="profile-pic">
-<p class="photo-caption">Virtual Assistant | Bookkeeper</p>
-
-      <h1>Kirstein Nojapa</h1>
-      <ul class="sidebar-links">
+  <header>
+    <nav>
+      <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </aside>
+    </nav>
+  </header>
 
-    <main class="content">
-      <section id="home" class="hero">
-        <h2>Hello, I'm <span>Kirstein</span></h2>
-        <p>Creative Developer & Designer</p>
-      </section>
+  <section id="home" class="section hero">
+    <h1>Hello, I'm Kirstein</h1>
+    <p>Bookkeeper VA</p>
+    <button onclick="scrollToSection('projects')">View My Work</button>
+  </section>
 
-      <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>I am a passionate developer with experience in web and UI design.</p>
-      </section>
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Write a short bio or intro here.</p>
+  </section>
 
-      <section id="resume" class="resume">
-        <h2>Resume</h2>
-        <div class="timeline">
-          <div class="timeline-item">
-            <h3>2023 - Present</h3>
-            <p>Front-End Developer at XYZ Company</p>
-          </div>
-          <div class="timeline-item">
-            <h3>2021 - 2023</h3>
-            <p>Web Design Freelancer</p>
-          </div>
-        </div>
-      </section>
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <!-- Duplicate this card for each project -->
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300" alt="Project">
+        <h3>Project Title</h3>
+        <p>Short description.</p>
+        <a href="#" target="_blank">View Demo</a>
+      </div>
+    </div>
+  </section>
 
-      <section id="portfolio" class="portfolio">
-        <h2>My Projects</h2>
-        <div class="gallery">
-          <div class="project">Project 1</div>
-          <div class="project">Project 2</div>
-          <div class="project">Project 3</div>
-        </div>
-      </section>
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="email" placeholder="genzennojapa@gmail.com" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
-      <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <form>
-          <input type="text" placeholder="Your Name" required />
-          <input type="email" placeholder="Your Email" required />
-          <textarea placeholder="Your Message" required></textarea>
-          <button type="submit">Send Message</button>
-        </form>
-      </section>
-    </main>
-  </div>
+  <footer>
+    <p>© 2025 Kirstein Genzen Nojapa. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
