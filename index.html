@@ -2,34 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kirstein Genzen Nojapa | Bookkeeper VA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tunis Dark Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1>Kirstein Genzen Nojapa</h1>
-      <p class="job-title">BOOKKEEPER VA</p>
-    </header>
-
-    <section class="about">
-      <h2>Welcome</h2>
-      <p>Hello! I'm Kirstein, a detail-oriented Bookkeeper Virtual Assistant, dedicated to serving businesses with accuracy and heart — all for God's glory.</p>
-    </section>
-
-    <section class="contact">
-      <h2>Contact Me</h2>
-      <ul>
-        <li>📧 Email: <a href="mailto:genzennojapa@gmail.com">genzennojapa@gmail.com</a></li>
-        <li>📱 Phone: <a href="tel:+6390703517425">+6390703517425</a></li>
-        <li>💼 LinkedIn: <a href="https://www.linkedin.com/in/kirstein-genzen-nojapa-9814832aa" target="_blank">View my profile</a></li>
+    <aside class="sidebar">
+      <img src="profile.jpg" alt="Profile" class="profile-pic">
+      <h1>Kirstein Nojapa</h1>
+      <ul class="sidebar-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-    </section>
+    </aside>
 
-    <footer>
-      <p>© 2025 Kirstein Genzen Nojapa — Serving with Excellence</p>
-    </footer>
+    <main class="content">
+      <section id="home" class="hero">
+        <h2>Hello, I'm <span>Kirstein</span></h2>
+        <p>Creative Developer & Designer</p>
+      </section>
+
+      <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a passionate developer with experience in web and UI design.</p>
+      </section>
+
+      <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>2023 - Present</h3>
+            <p>Front-End Developer at XYZ Company</p>
+          </div>
+          <div class="timeline-item">
+            <h3>2021 - 2023</h3>
+            <p>Web Design Freelancer</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio">
+        <h2>My Projects</h2>
+        <div class="gallery">
+          <div class="project">Project 1</div>
+          <div class="project">Project 2</div>
+          <div class="project">Project 3</div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
   </div>
 </body>
 </html>
