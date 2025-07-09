@@ -68,3 +68,10 @@ footer {
   color: #777;
   margin-top: 2rem;
 }
+
+.photo-caption {
+  color: #aaa;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
