@@ -7,7 +7,7 @@ a { color: #007BFF; text-decoration: none; }
 header {
   position: sticky;
   top: 0;
-  background: #fff;
+  background: #000;
   border-bottom: 1px solid #eee;
 }
 nav ul {
