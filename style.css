@@ -62,7 +62,7 @@ form textarea {
 form button {
   padding: 0.75rem;
   background: #007BFF;
-  color: #fff;
+  color: #000;
   border: none;
   cursor: pointer;
   border-radius: 4px;
