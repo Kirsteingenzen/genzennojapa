@@ -1,4 +1,4 @@
-# Sarah Mitchell CPA - Professional Bookkeeper Portfolio
+# Kirstein Genzen Nojapa CPA - Professional Bookkeeper Portfolio
 
 A modern, responsive portfolio website for a professional bookkeeper and CPA, built with HTML, CSS, and JavaScript. Perfect for deployment on GitHub Pages.
 
