@@ -1,30 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>KIRSTEIN GENZEN NOJAPA - Portfolio</title>
-  <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braxton - Creative Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <div class="left">
-      <img src="images/profile.jpg" alt="Profile Image" class="profile-img" />
-    </div>
-    <div class="right">
-      <p class="intro"><span class="dash">—</span> I'M <span class="highlight">STEVE MILNER.</span></p>
-      <h1>BOOKKEEPER VA</h1>
-      <p class="desc">
-      Experienced Bookkeeper with nearly four years of Bookkeeper VA experience in online bookkeeping
-using QuickBooks Online and Desktop. Adept at handling accounts payable and receivable, reconciling
-accounts, and maintaining accurate financial records. Proven ability to thrive in fast-paced, remote
-environments with strong proficiency in accounting tools like QuickBooks and Xero, and a meticulous
-approach to financial reporting.
-      </p>
-      <a href="#about" class="btn">
-        MORE ABOUT ME <span class="arrow">➜</span>
-      </a>
-    </div>
-  </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Braxton</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Creative <span class="gradient-text">Designer</span><br>
+                    & Developer
+                </h1>
+                <p class="hero-description">
+                    I create stunning digital experiences that combine beautiful design 
+                    with seamless functionality. Let's bring your vision to life.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card-1">
+                    <div class="card-content">
+                        <div class="card-icon">🎨</div>
+                        <h4>UI/UX Design</h4>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-content">
+                        <div class="card-icon">💻</div>
+                        <h4>Development</h4>
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-content">
+                        <div class="card-icon">📱</div>
+                        <h4>Mobile Apps</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Get to know more about my background and expertise</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello! I'm Braxton</h3>
+                    <p>
+                        A passionate creative designer and developer with over 5 years of experience 
+                        in crafting digital experiences. I specialize in creating user-centered 
+                        designs that not only look beautiful but also solve real problems.
+                    </p>
+                    <p>
+                        My journey began with a love for art and technology, which naturally evolved 
+                        into a career where I can blend creativity with technical expertise to 
+                        deliver exceptional results.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>30+</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h4>5+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <div class="gradient-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services</h2>
+                <p>What I can do for you</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-bg gradient-1"></div>
+                        <span>🎨</span>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating intuitive and beautiful user interfaces that provide exceptional user experiences.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-bg gradient-2"></div>
+                        <span>💻</span>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and performant websites using modern technologies and best practices.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-bg gradient-3"></div>
+                        <span>📱</span>
+                    </div>
+                    <h3>Mobile Apps</h3>
+                    <p>Developing cross-platform mobile applications that work seamlessly on all devices.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-bg gradient-4"></div>
+                        <span>🚀</span>
+                    </div>
+                    <h3>Brand Identity</h3>
+                    <p>Creating cohesive brand identities that tell your story and connect with your audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <p>Some of my recent work</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder gradient-1"></div>
+                        <div class="portfolio-overlay">
+                            <h4>E-commerce Platform</h4>
+                            <p>UI/UX Design & Development</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder gradient-2"></div>
+                        <div class="portfolio-overlay">
+                            <h4>Mobile Banking App</h4>
+                            <p>Mobile App Design</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder gradient-3"></div>
+                        <div class="portfolio-overlay">
+                            <h4>Brand Identity</h4>
+                            <p>Logo & Brand Design</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder gradient-4"></div>
+                        <div class="portfolio-overlay">
+                            <h4>SaaS Dashboard</h4>
+                            <p>Web Application</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's talk about your project</h3>
+                    <p>
+                        I'm always interested in new opportunities and exciting projects. 
+                        Whether you have a question or just want to say hello, feel free to reach out.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@braxton.dev</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <h4>Location</h4>
+                                <p>San Francisco, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Braxton</h3>
+                    <p>Creative Designer & Developer</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Dribbble</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Braxton. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
